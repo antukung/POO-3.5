@@ -29,7 +29,7 @@ class Hombre {
         coche.auto(this);
     }
     movimiento(auto) {
-         if (this.#animo > 0 && auto.getRoto >0 ) {
+         if (this.#animo > 0 && auto.getRoto() >0 ) {
             console.log("en movimiento");
             this.#llego++;
         }   if (this.#llego ===1) {
